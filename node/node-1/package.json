@@ -4,7 +4,9 @@
   "description": "homework-1",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "jest ./__spec__/index.spec.js",
+    "test:coverage": "jest --collect-coverage"
   },
   "author": "pandanax",
   "license": "ISC"
