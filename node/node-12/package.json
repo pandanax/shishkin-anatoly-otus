@@ -1,0 +1,16 @@
+{
+  "name": "12",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "node wss/server.js",
+    "client": "npx http-server ./client/"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ws": "^8.5.0"
+  }
+}
