@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "esNext",
+    "module": "commonJs",
+    "esModuleInterop": true,
+    "noImplicitAny": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "experimentalDecorators": true,
+    "outDir": "dist",
+    "rootDir": "src"
+  },
+  "include": ["src/**/*"],
+}
